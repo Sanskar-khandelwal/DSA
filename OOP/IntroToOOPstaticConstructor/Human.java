@@ -1,4 +1,4 @@
-package OOP;
+package OOP.IntroToOOPstaticConstructor;
 
 import javax.sound.sampled.SourceDataLine;
 

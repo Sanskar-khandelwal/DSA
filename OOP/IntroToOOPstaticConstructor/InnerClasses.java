@@ -1,4 +1,4 @@
-package OOP;
+package OOP.IntroToOOPstaticConstructor;
 // outside classes can not be static: because it itself is not dependent on any class
 // only inner classes can be static
 public class InnerClasses {
@@ -13,7 +13,7 @@ public class InnerClasses {
 
 
     public static void main(String[] args) {
-        Test a = new Test("Sansksar");
+//        Test a = new Test("Sansksar");
 
     }
 }

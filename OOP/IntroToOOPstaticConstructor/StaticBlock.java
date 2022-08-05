@@ -1,4 +1,4 @@
-package OOP;
+package OOP.IntroToOOPstaticConstructor;
 
 public class StaticBlock {
 

@@ -1,4 +1,4 @@
-package OOP;
+package OOP.IntroToOOPstaticConstructor;
 // when we want only one instance to be created that is only one object is allowed
 public class Singleton {
 
