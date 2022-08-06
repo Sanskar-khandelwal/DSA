@@ -30,7 +30,7 @@ public class Box {
         this.w = w;
     }
 
-     Box(Box old){
+      Box(Box old){
         this.l = old.l;
         this.w = old.w;
         this.h = old.h;

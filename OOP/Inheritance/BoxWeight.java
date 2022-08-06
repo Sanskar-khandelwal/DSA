@@ -24,3 +24,6 @@ public class BoxWeight extends Box {
         this.weight = weight;
     }
 }
+
+
+
