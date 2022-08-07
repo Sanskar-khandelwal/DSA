@@ -8,8 +8,9 @@ public class Main {
 
         Shapes shape = new Shapes();
         Circle circle = new Circle();
-        Square square = new Square();
 
+        Square square = new Square();
+        Square square2 = new Square();
         circle.area();
     }
 
