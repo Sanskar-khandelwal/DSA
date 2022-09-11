@@ -1,73 +1,52 @@
 package Stack;
 
-public class Stack {
-   private  int size;
-    private int top = -1;
-     int[] arr;
-   public static  final int  default_size = 5;
+public class Stack{
+   protected int[] data;
+   //not a dynamic stack
+    private static final int DEFAULT_SIZE = 10;
+    int ptr = -1;
+
+    public  Stack(){
+        this(DEFAULT_SIZE); // call it as a constructor this is used here
+    }
+
+    public Stack(int size){
+        this.data = new int[size];
+    }
 
 
+    public boolean push(int item){
 
-      public Stack(){
-           this(default_size);
-      }
+        if(isFull()){
+            System.out.println("Stack is full!!");
+            return false;
+        }
+        ptr++;
+        data[ptr] = item;
+        return true;
+    }
 
-     public Stack(int size){
-           this.size = 5;
-           this.arr =  new int[this.size];
-     }
-
-     public void push(int data){
-           if(top == size-1){
-                System.out.println("stack is full!!");
-           }
-
-           top++;
-           arr[top] = data;
-
-
-     }
-
-
-     public int pop(){
-           int x = -1;
-           if(top == -1){
-                System.out.println("cannot pop value from the stack, it is already empty");
-           }
-           else {
-             x = arr[top];
-                top--;
-           }
-          return x;
-     }
-
-
- // finding an element at given postion
-     public int peak(int pos){
-          int x = -1;
-          if( top -pos + 1 < 0){
-               System.out.println("invalid position");
-               return -1;
-          }
-          x = arr[top-pos+1];
-          return x;
-     }
-
-     public int StackTop(){
-           return arr[top];
-     }
-//     public static void main(String[] args) {
-//          Stack s = new Stack(5);
-//          s.push(3);
-//          s.push(2);
-//          s.push(5);
-//          s.push(5);
-//          s.push(5);
-////          s.peak(2);
-//          s.pop();
-//          s.pop();
-//        int x =   s.StackTop();
-//          System.out.println(x);
-//     }
+private boolean isFull(){
+        return ptr == data.length-1; // ptr is the last index
 }
 
+private boolean isEmpty(){
+        return ptr == -1;
+}
+
+public int pop() throws Exception {
+        if(isEmpty()){
+           throw new CustomException("Cannot pop from an empty stack!!");
+        }
+
+        return data[ptr--];
+}
+
+public int peek() throws CustomException {
+    if(isEmpty()){
+        throw new CustomException("Cannot find peak in empty stack");
+    }
+
+    return data[ptr];
+}
+}

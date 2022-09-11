@@ -1,18 +1,20 @@
-package LL;
 
-public class Main {
+
+package  LL;
+
+class Main{
     public static void main(String[] args) {
-       LL list = new LL();
-       list.insertAsfirst(2);
-       list.insertAsfirst(2);
-       list.insertAsfirst(2);
-       list.insertAsfirst(2);
-       list.insertAsfirst(2);
-       list.insertAsLast(5);
-//       list.reverse();
-//       list.insertAtPos(3);
-//       list.insertAsLastUsingtemp(7);
-       list.display();
 
-}
+     LL list = new LL();
+     list.insertAsFirst(3);
+     list.insertLast(69);
+     list.insertLast(79);
+     list.insertLast(89);
+     list.insertAt(80, 3);
+     list.display();
+
+
+
+
+    }
 }
