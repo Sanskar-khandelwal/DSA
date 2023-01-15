@@ -1,2 +1,4 @@
-package Practice;public class MergeSortRec {
+package Practice;
+
+public class MergeSortRec {
 }
