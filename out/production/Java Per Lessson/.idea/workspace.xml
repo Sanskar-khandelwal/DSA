@@ -5,14 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811163e9-e9e2-45ec-a19d-fdb06410e17a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/infixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/infixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/BubbleSortRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/BubbleSortRec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/AccessControl/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/AccessControl/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LL/LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/AverageWithoutHighestAndLowest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/BiggestInAdjacentNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/ExperimentingArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/MergeSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/NumberOfGoodPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/RotateArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/SmallerThanCurrentNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/SmallestElementInRotatedSorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/SmallestElementInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/SmallestNumberAfterGivenNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/SmallestNumberInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/ThekthFactorofn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Inheritance/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Inheritance/BoxWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Inheritance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/InnerClasses$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/InnerClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/IntroToOOPstaticConstructor/StaticBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Polymorphism/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Polymorphism/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Polymorphism/Shapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Polymorphism/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/OOP/Polymorphism/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/Pattern5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/PatternQuestion/RecursionPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionArray/BinarySearchRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionArray/IsSorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionArray/LinearSearchRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionString/SkipAChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionString/SkipAChar2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionString/SkipWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecursionString/Subset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/AverageWithoutHighestAndLowest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/Mergesort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/QuickSortBabbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/RecBubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/RecMergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/RecusionSorting/RecSelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/Stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/Stack/infixToPostfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/PlayingwithStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/Questions/CheckIfTwoStringArraysareEquivalent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/Questions/DefangingAnIPAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/Questions/ToLowerCase$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/Questions/ToLowerCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/StringAndStringBuilder/SB.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,10 +97,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/DSA/DSA",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CyclicSort">
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+      <module name="Java Per Lessson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LL.LL" />
       <module name="Java Per Lessson" />
@@ -47,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.LL" />
       </list>
     </recent_temporary>
@@ -61,5 +148,9 @@
       <updated>1662711746550</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
