@@ -18,20 +18,31 @@ public class IterativeInOrder {
     }
 
     private static ArrayList<Integer> iterativeInOrder(TreeNode root) {
-        ArrayList list = new ArrayList<>();
-        TreeNode Node;
-        Stack<TreeNode> stack = new Stack();
-        stack.push(root);
-        while(!stack.isEmpty()){
-            Node = stack.pop();
-            while(Node.left != null){
-                stack.push(Node.left);
-                Node = Node.left;
-            }
-            list.add(Node.val);
-
+        ArrayList<Integer> result = new ArrayList<>();
+     if (root == null) {
+            return result;
         }
-        return list;
+
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+
+        while (curr != null || !stack.isEmpty()) {
+            // Reach the leftmost node of the current subtree
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+
+            // Process the current node
+            curr = stack.pop();
+            result.add(curr.val); // Add the value to the ArrayList
+
+            // Move to the right subtree
+            curr = curr.right;
+        }
+
+        return result;
+    }
 
     }
-}
+
