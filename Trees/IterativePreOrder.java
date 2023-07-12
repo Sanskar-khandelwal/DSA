@@ -3,6 +3,8 @@ package Trees;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class IterativePreOrder {
@@ -14,7 +16,7 @@ public class IterativePreOrder {
          root.left.right = new TreeNode(5);
          root.right.left = new TreeNode(6);
          root.right.right = new TreeNode(7);
-       ArrayList<Integer> list =  iterativePreOrder(root);
+       ArrayList<Integer> list = PreOrder(root);
         System.out.println(list);
 
 
@@ -37,6 +39,24 @@ public class IterativePreOrder {
            list.add(node.val);
        }
        return list;
+    }
+    public static ArrayList<Integer> PreOrder(TreeNode root){
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()){
+        TreeNode node =  stack.pop();
+        list.add(node.val);
+
+        if(node.right != null){
+            stack.add(node.right);
+        }
+        if(node.left != null){
+            stack.add(node.left);
+        }
+
+        }
+        return list;
     }
 
 }
