@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="811163e9-e9e2-45ec-a19d-fdb06410e17a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/IterativePreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/IterativePreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/TreeNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +52,13 @@
       <recent name="Trees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.isBalanced">
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+  <component name="RunManager" selected="Application.IterativePreOrder">
+    <configuration name="IInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Traversals.IInOrder" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Trees.Traversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterativeInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.IterativeInOrder" />
+    <configuration name="IpreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Traversals.IpreOrder" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IterativePostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.IterativePostOrder" />
-      <module name="Java Per Lessson" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Trees.Traversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.isBalanced" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetcodeArrayQuestion.Solution" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LeetcodeArrayQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.check" />
+      <module name="Java Per Lessson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.isBalanced" />
-        <item itemvalue="Application.IterativeInOrder" />
-        <item itemvalue="Application.IterativePostOrder" />
         <item itemvalue="Application.IterativePreOrder" />
-        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.check" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.IInOrder" />
+        <item itemvalue="Application.IpreOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +147,16 @@
           <line>29</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/Solution.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
           <line>19</line>
@@ -151,6 +165,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Trees/SearchingInBST.java</url>
+          <line>20</line>
+          <properties class="Trees.SearchingInBST" method="search">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Trees/Traversals/RpreOrder.java</url>
+          <line>22</line>
+          <properties class="Trees.Traversals.RpreOrder" method="preOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Trees/Traversals/IInOrder.java</url>
+          <line>22</line>
+          <properties class="Trees.Traversals.IInOrder" method="inOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
