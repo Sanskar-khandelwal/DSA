@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="811163e9-e9e2-45ec-a19d-fdb06410e17a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/IterativePreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/IterativePreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/TreeNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/DSA/DSA&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/DSA/DSA",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Trees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IterativePreOrder">
-    <configuration name="IInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.Traversals.IInOrder" />
+  <component name="RunManager" selected="Application.BoundryTraveral">
+    <configuration name="BoundryTraveral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BoundryTraveral" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.Traversals.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IpreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.Traversals.IpreOrder" />
+    <configuration name="Diameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Diameter" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.Traversals.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundryTraveral" />
+        <item itemvalue="Application.Diameter" />
         <item itemvalue="Application.IterativePreOrder" />
         <item itemvalue="Application.check" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.IInOrder" />
-        <item itemvalue="Application.IpreOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +147,16 @@
           <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/Solution.java</url>
           <line>42</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/Diameter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
@@ -187,6 +193,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Trees/BoundryTraveral.java</url>
+          <line>19</line>
+          <properties class="Trees.BoundryTraveral" method="leftTraversal">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
