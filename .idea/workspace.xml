@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="811163e9-e9e2-45ec-a19d-fdb06410e17a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetcodeArrayQuestion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeArrayQuestion/RotateArraybyKth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/ReviseLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/ReviseLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LL/ReviseLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/LL/ReviseLL.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +52,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ReviseLL">
-    <configuration name="BtFromInorderPostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BtFromInorderPostOrder" />
+    <configuration name="ReviseLL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LL.ReviseLL" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReviseLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReviseLL" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LL.ReviseLL" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
@@ -119,11 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReviseLL" />
+        <item itemvalue="Application.ReviseLL (1)" />
         <item itemvalue="Application.SetsAndHashSet" />
         <item itemvalue="Application.TUF" />
         <item itemvalue="Application.RotateArraybyKth" />
-        <item itemvalue="Application.BtFromInorderPostOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +164,11 @@
           <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/RotateArraybyKth.java</url>
           <line>24</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LL/ReviseLL.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
@@ -231,7 +235,7 @@
     <SUITE FILE_PATH="coverage/DSA$RotateArraybyKth.ic" NAME="RotateArraybyKth Coverage Results" MODIFIED="1689880101768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LeetcodeArrayQuestion.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$ReviseLL.ic" NAME="ReviseLL Coverage Results" MODIFIED="1697187748172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DSA$ReviseLL.ic" NAME="ReviseLL Coverage Results" MODIFIED="1697348891549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LL.*</FILTER>
     </SUITE>
   </component>
