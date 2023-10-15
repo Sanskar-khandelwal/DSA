@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="811163e9-e9e2-45ec-a19d-fdb06410e17a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetcodeArrayQuestion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeArrayQuestion/RotateArraybyKth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/IterativePreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Per Lessson/Trees/IterativePreOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Per Lessson/LeetcodeArrayQuestion/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +51,7 @@
       <recent name="Trees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BtFromInorderPostOrder">
-    <configuration name="BoundryTraveral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BoundryTraveral" />
-      <module name="Java Per Lessson" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReviseLL">
     <configuration name="BtFromInorderPostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BtFromInorderPostOrder" />
       <module name="Java Per Lessson" />
@@ -77,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Diameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.Diameter" />
+    <configuration name="ReviseLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LL.ReviseLL" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterativePreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.IterativePreOrder" />
+    <configuration name="RotateArraybyKth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetcodeArrayQuestion.RotateArraybyKth" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LeetcodeArrayQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.check" />
+    <configuration name="SetsAndHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.SetsAndHashSet" />
+      <module name="Java Per Lessson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.TUF" />
       <module name="Java Per Lessson" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReviseLL" />
+        <item itemvalue="Application.SetsAndHashSet" />
+        <item itemvalue="Application.TUF" />
+        <item itemvalue="Application.RotateArraybyKth" />
         <item itemvalue="Application.BtFromInorderPostOrder" />
-        <item itemvalue="Application.BoundryTraveral" />
-        <item itemvalue="Application.Diameter" />
-        <item itemvalue="Application.IterativePreOrder" />
-        <item itemvalue="Application.check" />
       </list>
     </recent_temporary>
   </component>
@@ -146,8 +147,8 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/Solution.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/RotateArraybyKth.java</url>
+          <line>16</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -159,6 +160,11 @@
           <url>file://$PROJECT_DIR$/Trees/Diameter.java</url>
           <line>20</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetcodeArrayQuestion/RotateArraybyKth.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Trees/IterativeInOrder.java</url>
@@ -220,5 +226,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$RotateArraybyKth.ic" NAME="RotateArraybyKth Coverage Results" MODIFIED="1689880101768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LeetcodeArrayQuestion.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$ReviseLL.ic" NAME="ReviseLL Coverage Results" MODIFIED="1697187748172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LL.*</FILTER>
+    </SUITE>
   </component>
 </project>
